@@ -19026,10 +19026,6 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = require('react-dom');
-
-var _reactDom2 = _interopRequireDefault(_reactDom);
-
 var App = (function (_React$Component) {
   _inherits(App, _React$Component);
 
@@ -19045,7 +19041,7 @@ var App = (function (_React$Component) {
       return _react2['default'].createElement(
         'div',
         null,
-        'Hello World'
+        'Hello World!'
       );
     }
   }]);
@@ -19056,7 +19052,7 @@ var App = (function (_React$Component) {
 exports['default'] = App;
 module.exports = exports['default'];
 
-},{"react":157,"react-dom":1}],160:[function(require,module,exports){
+},{"react":157}],160:[function(require,module,exports){
 'use strict';
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
